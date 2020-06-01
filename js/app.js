@@ -17,9 +17,7 @@ $pdfs.on('click', function(event){
     event.preventDefault();
     //alert the user 
     alert('Please check the box to allow PDF downloads.');
-  } else {
-    $pdfs.attr('download', true);
-  }
+  } 
 });
 
 $('#links').append($pdfCheckbox);
